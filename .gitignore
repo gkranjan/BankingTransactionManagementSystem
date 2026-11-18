@@ -1,0 +1,48 @@
+
+# Compiled Java files
+*.class
+
+# Ignore all bin folders
+bin/
+**/bin/
+
+# Ignore target folder (Maven)
+target/
+
+# Ignore build folder (Gradle)
+build/
+.gradle/
+
+# Eclipse IDE files
+.classpath
+.project
+.settings/
+
+# IntelliJ IDEA files
+.idea/
+*.iml
+out/
+
+# VS Code
+.vscode/
+
+# Log files
+*.log
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+
+# Operating System files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Backup files
+*.backup
+*.old
+
+# Environment and secret files
+.env
+.env.*
